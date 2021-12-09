@@ -1,0 +1,50 @@
+@import "../shared/styles/colors.scss";
+h1 {
+    color: #251a6b;
+    text-align: center;
+    font-style: bold;
+    font-weight: bold;
+}
+
+span {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verifyBtn {
+    border-radius: 5px;
+    border: 0px;
+    width: 140px;
+    height: 40px;
+    background-color: $accent-color;
+    color: $white;
+}
+
+.reenviarBtn {
+    border-radius: 5px;
+    border: 0px;
+    width: 140px;
+    height: 40px;
+    background-color: transparent;
+    color: $accent-color;
+}
+
+// .container {
+//     width: 200px;
+// }
